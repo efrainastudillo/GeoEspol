@@ -13,6 +13,8 @@
 	<string name="copyright">Derechos Reservados 2013</string>
 	<string name="espol">Escuela Superior Politécnica del Litoral</string>
 	<string name="mapa_activity">Mapa</string>
-	
+	<string name="main_tasks">Que quiere hacer?</string>
 	<string name="error_create_table">Could not create some table</string>
+	
+	<string name="image_default">Image</string>
 </resources>

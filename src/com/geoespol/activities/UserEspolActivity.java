@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 
 public class UserEspolActivity extends Activity{
@@ -24,7 +25,8 @@ public class UserEspolActivity extends Activity{
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(getApplicationContext(),MapaActivity.class);
+				Intent intent = new Intent(getApplicationContext(),MainTasksActivity.class);
+				intent.putExtra("username", ((AutoCompleteTextView)findViewById(R.id.txtUserName)).getText());
 				startActivity(intent);
 			}
 		});

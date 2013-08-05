@@ -38,6 +38,11 @@
             android:configChanges="orientation"
             android:label="@string/mapa_activity">
         </activity>
+        <activity
+            android:name="com.geoespol.activities.MainTasksActivity"
+            android:configChanges="orientation"
+            android:label="@string/main_tasks">
+        </activity>
     </application>
 
 </manifest>
