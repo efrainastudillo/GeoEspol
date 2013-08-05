@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoEspol</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="about_activity">About</string>
+	<string name="usuario_espol">Usuario Espol</string>
+	<string name="usuario_visitante">Visitante</string>
+	<string name="username">Usuario:</string>
+	<string name="password">Contraseña</string>
+	<string name="login">Login</string>
+	<string name="title">Sistema de Geolocalización de Espol</string>
+	<string name="copyright">Derechos Reservados 2013</string>
+	<string name="espol">Escuela Superior Politécnica del Litoral</string>
+	<string name="mapa_activity">Mapa</string>
+	
+	<string name="error_create_table">Could not create some table</string>
+</resources>
