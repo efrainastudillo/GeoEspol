@@ -127,7 +127,7 @@ public class DBActivity extends Activity implements OnClickListener {
 
 		switch (v.getId()) {
 		case R.id.export_db_button:
-			Intent i = new Intent(this, FileBrowser.class);
+			Intent i = new Intent( this.getApplicationContext(), FileBrowser.class);
 			i.putExtra(FileBrowser.EXTRA_MODE, FileBrowser.MODE_SAVE);
 			i.putExtra(FileBrowser.EXTRA_ALLOWED_EXTENSIONS, getString(R.string.file_ending));
 			i.putExtra(FileBrowser.EXTRA_DEFAULT_EXTENSION, getString(R.string.file_ending));
@@ -136,7 +136,7 @@ public class DBActivity extends Activity implements OnClickListener {
 
 		case R.id.export_db_import_button:
 
-			Intent importIntent = new Intent(this, FileBrowser.class);
+			Intent importIntent = new Intent(this.getApplicationContext(), FileBrowser.class);
 			importIntent.putExtra(FileBrowser.EXTRA_MODE, FileBrowser.MODE_LOAD);
 			importIntent.putExtra(FileBrowser.EXTRA_ALLOWED_EXTENSIONS, "wcdb");
 			startActivityForResult(importIntent, FILEBROWSER_IMPORT);

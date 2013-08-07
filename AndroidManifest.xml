@@ -8,6 +8,17 @@
         android:minSdkVersion="11"
         android:targetSdkVersion="14" />
 
+        <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+    <uses-feature android:name="android.hardware.sensor.compass" />
+    
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -45,6 +56,11 @@
         </activity>
         <activity
             android:name="com.geoespol.activities.DBActivity"
+            android:configChanges="orientation"
+            android:label="@string/main_tasks">
+        </activity>
+         <activity
+            android:name="com.geoespol.filebrowser.FileBrowser"
             android:configChanges="orientation"
             android:label="@string/main_tasks">
         </activity>
