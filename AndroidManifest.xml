@@ -43,6 +43,11 @@
             android:configChanges="orientation"
             android:label="@string/main_tasks">
         </activity>
+        <activity
+            android:name="com.geoespol.activities.DBActivity"
+            android:configChanges="orientation"
+            android:label="@string/main_tasks">
+        </activity>
     </application>
 
 </manifest>

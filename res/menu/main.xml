@@ -1,12 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
-    <item 
-        android:id="@+id/action_sensor_calibration"
-        android:title="@string/hello_world"/>
-
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/main_settings_option">
+        <menu>
+            <item
+                android:id="@+id/main_menu_step_calibrate"
+                android:title="@string/main_menu_calibrate">
+            </item>
+<!--             <item -->
+<!--                 android:id="@+id/main_sensors_option" -->
+<!--                 android:title="@string/sensors_test_label"> -->
+<!--             </item> -->
+            <item
+                android:id="@+id/main_wifi_scan"
+                android:title="@string/main_wifi_scan">
+            </item>
+            <item
+                android:id="@+id/main_export_option"
+                android:title="@string/main_export_db_label">
+            </item>
+            <item
+                android:id="@+id/main_settings_option"
+                android:title="@string/main_loglevel_option">
+    				</item>
+        </menu>
+    </item>
+    
+    
 </menu>
